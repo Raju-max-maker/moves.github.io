@@ -1,60 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Mobile Application HTML5 Template">
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css/all.min.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-</head>
-<body>
-<!-- navbar -->
-	
-<!-- //navbar -->
-
-	<header class="cd-header">
-		<div class="header-wrapper">
-			<div class="logo-wrap">
-				<a href="#" class="hover-target"><span></span>SKYLINE FILMS</a>
-			</div>
-			<div class="nav-but-wrap">
-				<div class="menu-icon hover-target">
-					<span class="menus">MENU</span>
-				</div>					
-			</div>					
-		</div>				
-	</header>
-
-	<div class="nav">
-		<div class="nav__content">
-			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
-			</ul>
-		</div>
-	</div>			
-	
-	<div class='cursor' id="cursor"></div>
-	<div class='cursor2' id="cursor2"></div>
-	<div class='cursor3' id="cursor3"></div>
-
-	
-	
-	
-	
-	
-	
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-		
-
-
 (function($) { "use strict";
 		
 	//Page cursors
@@ -122,6 +65,3 @@
 	});
 	
 })(jQuery); 
-	</script>
-</body>
-</html>
