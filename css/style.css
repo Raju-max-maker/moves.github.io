@@ -15,6 +15,8 @@ body{
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
+
+
 a {
 	cursor: pointer;
 }
@@ -31,35 +33,44 @@ a:hover {
 	transform: translate(-75px, -80px) rotate(-7deg);
 
 }
-.bd-grid-1, .bd-grid-2, .bd-grid-3, .bd-grid-4, .bd-grid-6, .bd-grid-7, .bd-grid-8, .bd-grid-9{
-	background-image: url(../img/forever-living-products-personal-care-bdshoppings.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	height: 280px;
-	
+.home-img{
+	position: relative;
 }
- .bd-grid-5{
- 	background-image: url(../img/forever-living-products-personal-care-bdshoppings.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	height: 280px;
- }
-.overlay{
-	position: absolute;
+.title{
+	position: asolute;
+	overflow:hidden;
+}
+
+.logo{
+	width: 200px;
+	height: 60px;
+	margin-top: -30px;
+}
+.card{
+	border: none;
+
+}
+.card-img-overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 0px;
+}
+.card-img-overlay h2{
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	margin-top: 50%;
+	text-transform: uppercase;
 }
-.overlayf{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.1);
+.card a{
+	color: #8a8888;
 }
+.card h2{
+	font-size: 25px;
+	font-weight: 700;
+}
+
+
+
 
 .switch-wrap h1{
 	position: absolut;
@@ -67,6 +78,19 @@ a:hover {
 	right: 20px;
 	z-index: 10;
 
+}
+@media all and (max-width: 992px){
+	.card h2{
+		font-size: 20px;
+		font-weight: 700;
+	}
+}
+@media all and (max-width: 500px){
+	.logo{
+		width: 120px;
+		height: 50px;
+		margin-top: -30px;
+	}
 }
 
 .cursor,
@@ -119,11 +143,7 @@ a:hover {
 /* #Primary style
 ================================================== */
 
-.section {
-    position: relative;
-	width: 109%;
-	display: block;
-}
+
 .over-hide{
 	overflow: hidden;
 }
@@ -190,11 +210,11 @@ a:hover {
 	font-weight: 500;
 }
 .menu-icon__line {
-	height: 2px;
+	height: 3.5px;
 	width: 30px;
 	display: block;
 	background-color: #fff;
-	margin-bottom: 7px;
+	margin-bottom: 5px;
 	cursor: pointer;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
 	transition: background-color .5s ease, -webkit-transform .2s ease;
